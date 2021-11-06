@@ -1,11 +1,21 @@
 * {
- background-color: #f2f2f2;
+ background-color: #f1f1f1;
+}
+
+.container-fluid {
+
+}
+
+@media screen and (max-width: 600px) {
+
+ .justify {
+  justify-content: space-around;
+ }
+
 }
 
 header {
  display: flex;
- text-align: center;
- justify-content: space-between;
  align-items: center;
 }
 
@@ -16,6 +26,8 @@ h1 {
  text-align: center;
  font-size: 50px;
 }
+
+
 
 .small-paws {
  width: 100px;
@@ -86,7 +98,7 @@ h1 {
  height: 50%;
  margin: auto auto auto auto;
  border: 2px solid pink;
- display: flex;
+ /* display: flex; */
  justify-content: center;
  align-items: center;
 }
